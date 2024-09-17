@@ -1,0 +1,28 @@
+
+
+.app-header{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+    justify-items: center;
+    /* background-color: rgb(227, 231, 234); */
+    background-color:  #f2f6fc;
+
+}
+
+nav{
+    display: flex;
+    gap:40px;
+}
+
+a{
+    text-decoration-line: none;
+    color:black;
+    
+
+}
+
+.gmail-logo{
+    height: 40px;
+}

@@ -1,0 +1,109 @@
+
+.email-preview-li {
+    display: flex;
+    justify-content: flex-start;
+
+    align-items: center;
+    border-top: 1px solid rgb(227, 231, 234);
+    border-bottom: 1px solid rgb(227, 231, 234);
+    padding: 10px 10px 10px 10px;
+    list-style-type: none;
+    width: 100%;
+
+}
+
+.email-clicked {
+    /* background-color: rgb(207, 234, 252); */
+    display: flex;
+    justify-content: flex-start;
+
+    align-items: center;
+    border-top: 1px solid rgb(227, 231, 234);
+    border-bottom: 1px solid rgb(227, 231, 234);
+    padding: 10px 10px 10px 10px;
+    list-style-type: none;
+    width: 100%;
+
+    background-color:  #f2f6fc;
+
+
+}
+
+.link-to-details-read {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 20px;
+    font-family:  "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+    font-weight: lighter;
+
+
+}
+.link-to-details-unread {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 20px;
+    font-weight: bold;
+    font-family:  "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+
+}
+
+span{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.star-image{
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 10px; 
+}
+
+.star-icon{
+   color: #ecb900;
+}
+
+
+.email-preview-icons {
+    display: flex;
+    gap: 20px;
+}
+
+
+.radio-and-star{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+    /* justify-content: center; */
+}
+
+.checkbox-btn {
+    margin-top: 0;
+    height: 15px; /* Make sure the height matches the star image */
+}
+
+.star-image {
+    height: 15px; /* Ensure the star image height is consistent */
+    margin-right: 10px;
+}
+
+
+/* .radio-btn [type="radio"]:checked + .custom-radio::before{
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2px;
+}  */

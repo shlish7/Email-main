@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    color: #041e49;
+    font-size: 14px;
+    font-weight: 500;
+}
+.compose-modal-container{
+    /* background-color: rgba(0,0,0,0.4);  */
+    /* Black w/ opacity */
+}
+@media only screen and (min-width: 640px) {
+    .compose-form{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        /* inset: 0;
+        margin: auto; */
+        width:400px;
+        height: 400px;
+        background-color: white;
+        bottom: 0;
+        left: 167px;
+    }  
+
+}
+
+@media only screen and (max-width: 640px) {
+    .compose-form{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        /* inset: 0;
+        margin: auto; */
+        width:100vw;
+        height: 100vh;
+        background-color: white;
+        bottom: 0;
+      }  
+}
+
+
+ 
+.compose-box-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color:  #f2f6fc;
+    padding-left: 10px;
+
+}
+.compose-span-title{
+    font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    color: #041e49;
+}
+.send-to-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+
+}
+.send-to-span{
+    width: fit-content;
+    padding-left: 8px;
+
+}
+.send-to-input{
+    height: 90%;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding-left: 8px;
+}
+.subject-span{
+    width: fit-content;
+    padding-left: 8px;
+
+}
+.subject-input{
+    height: 90%;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding-left: 8px;
+}
+.body-input{
+    display: flex;
+    flex-grow: 1;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    outline: none;
+}
+
+.send-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 87, 208);
+    height: 40px;
+    color:white;
+    padding: 0 16px 0 16px;
+    border-radius: 18px;
+    border: none;
+    width: fit-content;
+    margin: 8px
+
+}
+.arrow-icon{
+    rotate: 135deg;
+}
+.modal-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+
+}
+.close-btn{
+    background-color:  #f2f6fc;
+    border: none;
+
+    
+}

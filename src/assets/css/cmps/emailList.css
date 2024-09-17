@@ -1,0 +1,45 @@
+
+.email-list-section{
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+    width: 100%;
+
+}
+
+
+.email-list-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin-top: 20px; */
+    width: 100%;
+    list-style-type: none;
+
+}
+
+li{
+    width: 100%;
+
+}
+
+.email-item{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 100%;
+    gap:5px;
+
+}
+
+button{
+    height: 40px;
+} 
+
+
+
+
+.email-list{
+    /* overflow-y: auto;  */
+    /* Allows the content inside the main container to scroll if it overflows */
+}

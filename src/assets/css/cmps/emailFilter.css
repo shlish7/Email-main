@@ -1,0 +1,81 @@
+
+
+
+    .email-filter{
+        display: flex;
+        /* flex-direction: column; */
+        /* margin-top: 20px; */
+    }
+    
+    .input-container {
+        position: relative;
+        width:95%;
+      }
+    
+      .input-container input {
+        width: 100%;
+        padding: 10px 40px 10px 20px; /* Adjust the padding to make space for the icon */
+        border-radius: 24px;
+        border: 1px solid #ccc;
+        margin-left: 10px;
+      }
+     
+      .search-icon {
+        position: absolute;
+        right: 10px; /* Position the icon inside the input */
+        /* top: 40px; */
+        top: 65%;
+    
+        transform: translateY(-50%);
+        color: #aaa; /* Icon color */
+      }
+      .x-icon{
+        position: absolute;
+        right: 10px; /* Position the icon inside the input */
+        /* top: 40px; */
+        top: 65%;
+    
+        transform: translateY(-50%);
+        color: #aaa; /* Icon color */
+      }
+    
+
+    .search-input{
+        margin-top: 20px;
+        padding-left: 15px;
+        width:80%;
+        border: 0.5px solid;
+        border-radius: 20px;
+        border-color: lightgray;
+        outline: none;
+    }
+    
+    .isReadBtn{
+        margin-top: 20px;
+        padding: 4px;
+        background-color: white;
+        border: 0.5px solid lightgray;
+        border-radius: 10px;
+    
+        height: 40px;
+
+        margin-top: 20px;
+        margin-left:15px ;
+        background-color: white;
+        border: 0.5px solid;
+        border-color: lightgray;
+        border-radius: 20x;
+        width:fit-content;
+        height: 40px;
+    }
+
+    /* button{
+        margin-top: 20px;
+        margin-left:15px ;
+        background-color: white;
+        border: 0.5px solid;
+        border-color: lightgray;
+        border-radius: 20x;
+        width:fit-content;
+        height: 40px;
+    } */
